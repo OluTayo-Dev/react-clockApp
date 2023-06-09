@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+
+
+body{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Mono', monospace;
+
+}
+
+.container{
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items:center;
+  justify-content: center;
+  background: url(../src/asset/Summer.png);
+  background-size: cover;
+  background-position: center;
+}
+.text p{
+  color:#fff;
+  text-shadow: 0.2rem 0.2rem 0.4rem #111;
+}
+.clock{
+  padding:1rem;
+  color:#fff;
+}
+.clock h1{
+ font-size: 4rem;
+ text-align:center;
+ text-shadow: 0.2rem 0.2rem 0.4rem #111;
+}
+.clock p{
+  margin-top: 1rem;
+  font-size:2rem;
+  text-align:center;
+  text-shadow: 0.2rem 0.2rem 0.4rem #111;
+}
+.quote{
+  color:#fff;
+  text-shadow: 0.2rem 0.2rem 0.4rem #111;
+
+}
+
+@media screen and (max-width: 380px) {
+ .clock h1{
+  font-size: 2rem;
+ }
+ .clock p{
+  font-size: 1rem;
+ }
+}
